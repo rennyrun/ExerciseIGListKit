@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25ADB1BBE7316E53FF87B561 /* Pods_DealsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4172ABF57AEB7770B868C2AE /* Pods_DealsTests.framework */; };
+		35295306197522C7CD1825FE /* Pods_Deals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC4051842FEB94A02670907 /* Pods_Deals.framework */; };
 		CBBD1E642125518B0028FE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD1E632125518B0028FE30 /* AppDelegate.swift */; };
 		CBBD1E662125518B0028FE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD1E652125518B0028FE30 /* ViewController.swift */; };
 		CBBD1E692125518B0028FE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBD1E672125518B0028FE30 /* Main.storyboard */; };
@@ -14,6 +16,29 @@
 		CBBD1E6E2125518E0028FE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBD1E6C2125518E0028FE30 /* LaunchScreen.storyboard */; };
 		CBBD1E792125518E0028FE30 /* DealsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD1E782125518E0028FE30 /* DealsTests.swift */; };
 		CBBD1E842125518E0028FE30 /* DealsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD1E832125518E0028FE30 /* DealsUITests.swift */; };
+		CBBD1EA02125598E0028FE30 /* DealsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD1E9F2125598E0028FE30 /* DealsDataSource.swift */; };
+		CBDE88C7212E5BA600229FFE /* DealsSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE88C5212E5BA600229FFE /* DealsSectionHeaderView.swift */; };
+		CBDE88C8212E5BA600229FFE /* DealsSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBDE88C6212E5BA600229FFE /* DealsSectionHeaderView.xib */; };
+		CBED6FE821319E7300FDAD31 /* DealsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBED6FD021319E7200FDAD31 /* DealsHeaderView.xib */; };
+		CBED6FE921319E7300FDAD31 /* DealsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FD121319E7200FDAD31 /* DealsHeaderView.swift */; };
+		CBED6FEA21319E7300FDAD31 /* DealsBannerSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FD221319E7200FDAD31 /* DealsBannerSectionController.swift */; };
+		CBED6FEB21319E7300FDAD31 /* DealsBanners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FD321319E7200FDAD31 /* DealsBanners.swift */; };
+		CBED6FEC21319E7300FDAD31 /* DealsPopularBrandsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBED6FD521319E7200FDAD31 /* DealsPopularBrandsCell.xib */; };
+		CBED6FED21319E7300FDAD31 /* DealsPopularBrandsSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FD621319E7200FDAD31 /* DealsPopularBrandsSectionController.swift */; };
+		CBED6FEE21319E7300FDAD31 /* DealsPopularBrands.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FD721319E7200FDAD31 /* DealsPopularBrands.swift */; };
+		CBED6FEF21319E7300FDAD31 /* DealsPopularBrandsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FD821319E7200FDAD31 /* DealsPopularBrandsCell.swift */; };
+		CBED6FF021319E7300FDAD31 /* DealsVoucherCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBED6FDA21319E7200FDAD31 /* DealsVoucherCategoryCell.xib */; };
+		CBED6FF121319E7300FDAD31 /* CategoryVouchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FDB21319E7200FDAD31 /* CategoryVouchers.swift */; };
+		CBED6FF221319E7300FDAD31 /* DealsVoucherCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FDC21319E7200FDAD31 /* DealsVoucherCategoryCell.swift */; };
+		CBED6FF321319E7300FDAD31 /* DealsVoucherCategorySectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FDD21319E7200FDAD31 /* DealsVoucherCategorySectionController.swift */; };
+		CBED6FF421319E7300FDAD31 /* TrendingDealsSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FE021319E7200FDAD31 /* TrendingDealsSectionController.swift */; };
+		CBED6FF521319E7300FDAD31 /* TrendingDealsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FE121319E7200FDAD31 /* TrendingDealsCell.swift */; };
+		CBED6FF621319E7300FDAD31 /* TrendingDealsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBED6FE221319E7200FDAD31 /* TrendingDealsCell.xib */; };
+		CBED6FF721319E7300FDAD31 /* AllDealsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FE421319E7200FDAD31 /* AllDealsCell.swift */; };
+		CBED6FF821319E7300FDAD31 /* AllDealsSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FE521319E7200FDAD31 /* AllDealsSectionController.swift */; };
+		CBED6FF921319E7300FDAD31 /* AllDealsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBED6FE621319E7200FDAD31 /* AllDealsCell.xib */; };
+		CBED6FFA21319E7300FDAD31 /* Deals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED6FE721319E7200FDAD31 /* Deals.swift */; };
+		D1B75AB0E736D81687C2ECA7 /* Pods_DealsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019FE9668DB6FA39034ACFC9 /* Pods_DealsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019FE9668DB6FA39034ACFC9 /* Pods_DealsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD09F93311B33B549C03819 /* Pods-DealsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DealsTests/Pods-DealsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FC36FF8AA49C494C069B6C4 /* Pods-Deals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deals/Pods-Deals.debug.xcconfig"; sourceTree = "<group>"; };
+		1AF0AE27B65ACEDAADBFC547 /* Pods-Deals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deals.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deals/Pods-Deals.release.xcconfig"; sourceTree = "<group>"; };
+		4172ABF57AEB7770B868C2AE /* Pods_DealsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DealsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68468F55969591B4BF835B3 /* Pods-DealsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DealsUITests/Pods-DealsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF9A878CDC04A04FB7687EF2 /* Pods-DealsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealsTests/Pods-DealsTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFC4051842FEB94A02670907 /* Pods_Deals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBD1E602125518B0028FE30 /* Deals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBD1E632125518B0028FE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBBD1E652125518B0028FE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +80,29 @@
 		CBBD1E7F2125518E0028FE30 /* DealsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBD1E832125518E0028FE30 /* DealsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsUITests.swift; sourceTree = "<group>"; };
 		CBBD1E852125518E0028FE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBBD1E9F2125598E0028FE30 /* DealsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsDataSource.swift; sourceTree = "<group>"; };
+		CBDE88C5212E5BA600229FFE /* DealsSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsSectionHeaderView.swift; sourceTree = "<group>"; };
+		CBDE88C6212E5BA600229FFE /* DealsSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealsSectionHeaderView.xib; sourceTree = "<group>"; };
+		CBED6FD021319E7200FDAD31 /* DealsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealsHeaderView.xib; sourceTree = "<group>"; };
+		CBED6FD121319E7200FDAD31 /* DealsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsHeaderView.swift; sourceTree = "<group>"; };
+		CBED6FD221319E7200FDAD31 /* DealsBannerSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsBannerSectionController.swift; sourceTree = "<group>"; };
+		CBED6FD321319E7200FDAD31 /* DealsBanners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsBanners.swift; sourceTree = "<group>"; };
+		CBED6FD521319E7200FDAD31 /* DealsPopularBrandsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealsPopularBrandsCell.xib; sourceTree = "<group>"; };
+		CBED6FD621319E7200FDAD31 /* DealsPopularBrandsSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsPopularBrandsSectionController.swift; sourceTree = "<group>"; };
+		CBED6FD721319E7200FDAD31 /* DealsPopularBrands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsPopularBrands.swift; sourceTree = "<group>"; };
+		CBED6FD821319E7200FDAD31 /* DealsPopularBrandsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsPopularBrandsCell.swift; sourceTree = "<group>"; };
+		CBED6FDA21319E7200FDAD31 /* DealsVoucherCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealsVoucherCategoryCell.xib; sourceTree = "<group>"; };
+		CBED6FDB21319E7200FDAD31 /* CategoryVouchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryVouchers.swift; sourceTree = "<group>"; };
+		CBED6FDC21319E7200FDAD31 /* DealsVoucherCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsVoucherCategoryCell.swift; sourceTree = "<group>"; };
+		CBED6FDD21319E7200FDAD31 /* DealsVoucherCategorySectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsVoucherCategorySectionController.swift; sourceTree = "<group>"; };
+		CBED6FE021319E7200FDAD31 /* TrendingDealsSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingDealsSectionController.swift; sourceTree = "<group>"; };
+		CBED6FE121319E7200FDAD31 /* TrendingDealsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingDealsCell.swift; sourceTree = "<group>"; };
+		CBED6FE221319E7200FDAD31 /* TrendingDealsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrendingDealsCell.xib; sourceTree = "<group>"; };
+		CBED6FE421319E7200FDAD31 /* AllDealsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDealsCell.swift; sourceTree = "<group>"; };
+		CBED6FE521319E7200FDAD31 /* AllDealsSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDealsSectionController.swift; sourceTree = "<group>"; };
+		CBED6FE621319E7200FDAD31 /* AllDealsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllDealsCell.xib; sourceTree = "<group>"; };
+		CBED6FE721319E7200FDAD31 /* Deals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deals.swift; sourceTree = "<group>"; };
+		DCF19F6CAF6CA89C3F0FC17E /* Pods-DealsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DealsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DealsUITests/Pods-DealsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35295306197522C7CD1825FE /* Pods_Deals.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25ADB1BBE7316E53FF87B561 /* Pods_DealsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +126,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B75AB0E736D81687C2ECA7 /* Pods_DealsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05527E135AB0E3044CD6BD39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FC36FF8AA49C494C069B6C4 /* Pods-Deals.debug.xcconfig */,
+				1AF0AE27B65ACEDAADBFC547 /* Pods-Deals.release.xcconfig */,
+				0DD09F93311B33B549C03819 /* Pods-DealsTests.debug.xcconfig */,
+				AF9A878CDC04A04FB7687EF2 /* Pods-DealsTests.release.xcconfig */,
+				A68468F55969591B4BF835B3 /* Pods-DealsUITests.debug.xcconfig */,
+				DCF19F6CAF6CA89C3F0FC17E /* Pods-DealsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D90C525F13FB9567295707A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC4051842FEB94A02670907 /* Pods_Deals.framework */,
+				4172ABF57AEB7770B868C2AE /* Pods_DealsTests.framework */,
+				019FE9668DB6FA39034ACFC9 /* Pods_DealsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CBBD1E572125518B0028FE30 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +163,8 @@
 				CBBD1E772125518E0028FE30 /* DealsTests */,
 				CBBD1E822125518E0028FE30 /* DealsUITests */,
 				CBBD1E612125518B0028FE30 /* Products */,
+				05527E135AB0E3044CD6BD39 /* Pods */,
+				2D90C525F13FB9567295707A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +181,19 @@
 		CBBD1E622125518B0028FE30 /* Deals */ = {
 			isa = PBXGroup;
 			children = (
+				CBED6FDE21319E7200FDAD31 /* Deals */,
+				CBED6FCF21319E7200FDAD31 /* DealsBanners */,
+				CBED6FD421319E7200FDAD31 /* DealsPopularBrands */,
+				CBED6FD921319E7200FDAD31 /* DealsVoucherCategory */,
 				CBBD1E632125518B0028FE30 /* AppDelegate.swift */,
 				CBBD1E652125518B0028FE30 /* ViewController.swift */,
+				CBDE88C5212E5BA600229FFE /* DealsSectionHeaderView.swift */,
+				CBDE88C6212E5BA600229FFE /* DealsSectionHeaderView.xib */,
 				CBBD1E672125518B0028FE30 /* Main.storyboard */,
 				CBBD1E6A2125518E0028FE30 /* Assets.xcassets */,
-				CBBD1E6C2125518E0028FE30 /* LaunchScreen.storyboard */,
 				CBBD1E6F2125518E0028FE30 /* Info.plist */,
+				CBBD1E6C2125518E0028FE30 /* LaunchScreen.storyboard */,
+				CBBD1E9F2125598E0028FE30 /* DealsDataSource.swift */,
 			);
 			path = Deals;
 			sourceTree = "<group>";
@@ -125,6 +216,69 @@
 			path = DealsUITests;
 			sourceTree = "<group>";
 		};
+		CBED6FCF21319E7200FDAD31 /* DealsBanners */ = {
+			isa = PBXGroup;
+			children = (
+				CBED6FD021319E7200FDAD31 /* DealsHeaderView.xib */,
+				CBED6FD121319E7200FDAD31 /* DealsHeaderView.swift */,
+				CBED6FD221319E7200FDAD31 /* DealsBannerSectionController.swift */,
+				CBED6FD321319E7200FDAD31 /* DealsBanners.swift */,
+			);
+			path = DealsBanners;
+			sourceTree = "<group>";
+		};
+		CBED6FD421319E7200FDAD31 /* DealsPopularBrands */ = {
+			isa = PBXGroup;
+			children = (
+				CBED6FD521319E7200FDAD31 /* DealsPopularBrandsCell.xib */,
+				CBED6FD621319E7200FDAD31 /* DealsPopularBrandsSectionController.swift */,
+				CBED6FD721319E7200FDAD31 /* DealsPopularBrands.swift */,
+				CBED6FD821319E7200FDAD31 /* DealsPopularBrandsCell.swift */,
+			);
+			path = DealsPopularBrands;
+			sourceTree = "<group>";
+		};
+		CBED6FD921319E7200FDAD31 /* DealsVoucherCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CBED6FDA21319E7200FDAD31 /* DealsVoucherCategoryCell.xib */,
+				CBED6FDB21319E7200FDAD31 /* CategoryVouchers.swift */,
+				CBED6FDC21319E7200FDAD31 /* DealsVoucherCategoryCell.swift */,
+				CBED6FDD21319E7200FDAD31 /* DealsVoucherCategorySectionController.swift */,
+			);
+			path = DealsVoucherCategory;
+			sourceTree = "<group>";
+		};
+		CBED6FDE21319E7200FDAD31 /* Deals */ = {
+			isa = PBXGroup;
+			children = (
+				CBED6FDF21319E7200FDAD31 /* TrendingDeals */,
+				CBED6FE321319E7200FDAD31 /* AllDeals */,
+				CBED6FE721319E7200FDAD31 /* Deals.swift */,
+			);
+			path = Deals;
+			sourceTree = "<group>";
+		};
+		CBED6FDF21319E7200FDAD31 /* TrendingDeals */ = {
+			isa = PBXGroup;
+			children = (
+				CBED6FE021319E7200FDAD31 /* TrendingDealsSectionController.swift */,
+				CBED6FE121319E7200FDAD31 /* TrendingDealsCell.swift */,
+				CBED6FE221319E7200FDAD31 /* TrendingDealsCell.xib */,
+			);
+			path = TrendingDeals;
+			sourceTree = "<group>";
+		};
+		CBED6FE321319E7200FDAD31 /* AllDeals */ = {
+			isa = PBXGroup;
+			children = (
+				CBED6FE421319E7200FDAD31 /* AllDealsCell.swift */,
+				CBED6FE521319E7200FDAD31 /* AllDealsSectionController.swift */,
+				CBED6FE621319E7200FDAD31 /* AllDealsCell.xib */,
+			);
+			path = AllDeals;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBBD1E882125518E0028FE30 /* Build configuration list for PBXNativeTarget "Deals" */;
 			buildPhases = (
+				031017E16ED0E2914B028B0F /* [CP] Check Pods Manifest.lock */,
 				CBBD1E5C2125518B0028FE30 /* Sources */,
 				CBBD1E5D2125518B0028FE30 /* Frameworks */,
 				CBBD1E5E2125518B0028FE30 /* Resources */,
+				F09C5609C1E1CAC749DB6E9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBBD1E8B2125518E0028FE30 /* Build configuration list for PBXNativeTarget "DealsTests" */;
 			buildPhases = (
+				A6DDAA00DB29F47CEADC760B /* [CP] Check Pods Manifest.lock */,
 				CBBD1E702125518E0028FE30 /* Sources */,
 				CBBD1E712125518E0028FE30 /* Frameworks */,
 				CBBD1E722125518E0028FE30 /* Resources */,
@@ -167,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBBD1E8E2125518E0028FE30 /* Build configuration list for PBXNativeTarget "DealsUITests" */;
 			buildPhases = (
+				07762F8671B5C9FFC60F7B1F /* [CP] Check Pods Manifest.lock */,
 				CBBD1E7B2125518E0028FE30 /* Sources */,
 				CBBD1E7C2125518E0028FE30 /* Frameworks */,
 				CBBD1E7D2125518E0028FE30 /* Resources */,
@@ -229,9 +387,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBED6FF021319E7300FDAD31 /* DealsVoucherCategoryCell.xib in Resources */,
 				CBBD1E6E2125518E0028FE30 /* LaunchScreen.storyboard in Resources */,
+				CBED6FF921319E7300FDAD31 /* AllDealsCell.xib in Resources */,
+				CBED6FF621319E7300FDAD31 /* TrendingDealsCell.xib in Resources */,
+				CBDE88C8212E5BA600229FFE /* DealsSectionHeaderView.xib in Resources */,
 				CBBD1E6B2125518E0028FE30 /* Assets.xcassets in Resources */,
+				CBED6FE821319E7300FDAD31 /* DealsHeaderView.xib in Resources */,
 				CBBD1E692125518B0028FE30 /* Main.storyboard in Resources */,
+				CBED6FEC21319E7300FDAD31 /* DealsPopularBrandsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +415,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		031017E16ED0E2914B028B0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deals-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07762F8671B5C9FFC60F7B1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DealsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DDAA00DB29F47CEADC760B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DealsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09C5609C1E1CAC749DB6E9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Deals/Pods-Deals-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deals/Pods-Deals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBBD1E5C2125518B0028FE30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBED6FF121319E7300FDAD31 /* CategoryVouchers.swift in Sources */,
+				CBED6FFA21319E7300FDAD31 /* Deals.swift in Sources */,
+				CBED6FF821319E7300FDAD31 /* AllDealsSectionController.swift in Sources */,
+				CBED6FE921319E7300FDAD31 /* DealsHeaderView.swift in Sources */,
+				CBED6FEA21319E7300FDAD31 /* DealsBannerSectionController.swift in Sources */,
+				CBED6FF521319E7300FDAD31 /* TrendingDealsCell.swift in Sources */,
 				CBBD1E662125518B0028FE30 /* ViewController.swift in Sources */,
+				CBED6FF221319E7300FDAD31 /* DealsVoucherCategoryCell.swift in Sources */,
+				CBED6FED21319E7300FDAD31 /* DealsPopularBrandsSectionController.swift in Sources */,
+				CBED6FF421319E7300FDAD31 /* TrendingDealsSectionController.swift in Sources */,
+				CBED6FEB21319E7300FDAD31 /* DealsBanners.swift in Sources */,
+				CBED6FEF21319E7300FDAD31 /* DealsPopularBrandsCell.swift in Sources */,
+				CBDE88C7212E5BA600229FFE /* DealsSectionHeaderView.swift in Sources */,
+				CBED6FEE21319E7300FDAD31 /* DealsPopularBrands.swift in Sources */,
+				CBBD1EA02125598E0028FE30 /* DealsDataSource.swift in Sources */,
+				CBED6FF321319E7300FDAD31 /* DealsVoucherCategorySectionController.swift in Sources */,
 				CBBD1E642125518B0028FE30 /* AppDelegate.swift in Sources */,
+				CBED6FF721319E7300FDAD31 /* AllDealsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +683,7 @@
 		};
 		CBBD1E892125518E0028FE30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC36FF8AA49C494C069B6C4 /* Pods-Deals.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +701,7 @@
 		};
 		CBBD1E8A2125518E0028FE30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF0AE27B65ACEDAADBFC547 /* Pods-Deals.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +719,7 @@
 		};
 		CBBD1E8C2125518E0028FE30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD09F93311B33B549C03819 /* Pods-DealsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +740,7 @@
 		};
 		CBBD1E8D2125518E0028FE30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9A878CDC04A04FB7687EF2 /* Pods-DealsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +761,7 @@
 		};
 		CBBD1E8F2125518E0028FE30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68468F55969591B4BF835B3 /* Pods-DealsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +781,7 @@
 		};
 		CBBD1E902125518E0028FE30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF19F6CAF6CA89C3F0FC17E /* Pods-DealsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,19 +7,28 @@
 //
 
 import UIKit
+import IGListKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    lazy var adapter: ListAdapter =  {
+        let updater = ListAdapterUpdater()
+        let adapter = ListAdapter(updater: updater,
+                                  viewController: self,
+                                  workingRangeSize: 1)
+        adapter.collectionView = collectionView
+        return adapter
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        adapter.dataSource = DealsDataSource()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="sqF-oE-hDu" customClass="DealsVoucherCategoryCell" customModule="Deals" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gNr-sg-Poy">
+                        <rect key="frame" x="5" y="0.0" width="60" height="60"/>
+                        <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="gNr-sg-Poy" secondAttribute="height" multiplier="1:1" id="FJx-JD-mC9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbD-6E-D2t">
+                        <rect key="frame" x="0.0" y="68" width="70" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="eW1-zb-hJM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gbD-6E-D2t" secondAttribute="trailing" id="6Ps-UD-o6T"/>
+                <constraint firstItem="gNr-sg-Poy" firstAttribute="leading" secondItem="sqF-oE-hDu" secondAttribute="leading" constant="5" id="FHe-L4-E4H"/>
+                <constraint firstAttribute="trailing" secondItem="gNr-sg-Poy" secondAttribute="trailing" constant="5" id="FeZ-k5-dsV"/>
+                <constraint firstItem="gbD-6E-D2t" firstAttribute="leading" secondItem="sqF-oE-hDu" secondAttribute="leading" id="Fya-dA-1Yy"/>
+                <constraint firstItem="gNr-sg-Poy" firstAttribute="top" secondItem="sqF-oE-hDu" secondAttribute="top" id="WbP-aA-k1I"/>
+                <constraint firstAttribute="bottom" secondItem="gbD-6E-D2t" secondAttribute="bottom" id="vGN-qg-qrc"/>
+                <constraint firstItem="gbD-6E-D2t" firstAttribute="top" secondItem="gNr-sg-Poy" secondAttribute="bottom" constant="8" id="vli-UX-wwr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="cXQ-5g-76p"/>
+            <connections>
+                <outlet property="label" destination="gbD-6E-D2t" id="HFI-xS-leS"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
